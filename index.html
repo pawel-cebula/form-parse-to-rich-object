@@ -1,0 +1,33 @@
+<form method="POST" action="/order">
+  <fieldset>
+    <legend>Food order</legend>
+    <p>
+      <input name="order[food][1][quantity]" type="number" />
+      <input name="order[food][1][meal]" type="text" />
+    </p>
+    <p>
+      <input name="order[food][2][quantity]" type="number" />
+      <input name="order[food][2][meal]" type="text" />
+    </p>
+    <p>
+      <input name="order[food][3][quantity]" type="number" />
+      <input name="order[food][3][meal]" type="text" />
+    </p>
+  </fieldset>
+  <fieldset>
+    <legend>Drinks order</legend>
+    <p>
+      <input name="order[drinks][1][quantity]" type="number" />
+      <input name="order[drinks][1][beverage]" type="text" />
+    </p>
+    <p>
+      <input name="order[drinks][2][quantity]" type="number" />
+      <input name="order[drinks][2][beverage]" type="text" />
+    </p>
+    <p>
+      <input name="order[drinks][3][quantity]" type="number" />
+      <input name="order[drinks][3][beverage]" type="text" />
+    </p>
+  </fieldset>
+  <button type="submit">Submit</button>
+</form>
